@@ -18,9 +18,16 @@ footer{
 }
 #flex-container-3{
     display: flex;
-    flex-direction: row;
+    width: 100%;
+    
+}
+#reservations{
+    flex: 50%;
 }
 form{
     display: flex;
     flex-direction: column;
+}
+map{
+    flex: 50%;
 }
