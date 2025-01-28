@@ -1,0 +1,44 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    background-color: #EDD98F;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 150px;
+    width: 100%;
+}
+
+#name h1 {
+    margin: auto;
+    font-family: "Lavishly Yours", serif;
+    font-size: 60px;
+}
+
+#navigation {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+#navigation a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+#navigation a:hover {
+    color: white;
+}
