@@ -1,0 +1,20 @@
+footer{
+    background-color: #F6D496;
+    height: 276px;
+    width: auto;
+    margin-bottom: 0px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.contacts{
+    width: 150px;
+    
+}
+.open{
+    width: 150px;
+    
+}
