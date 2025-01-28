@@ -1,20 +1,18 @@
 footer{
     background-color: #F6D496;
-    height: 276px;
-    width: auto;
-    margin-bottom: 0px;
+    height: 226px;
 }
-.flex-container{
+#flex-container-4{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-evenly;
 }
-.contacts{
-    width: 150px;
-    
+#contacts{
+    width: 210px;
+    text-align: left;
 }
-.open{
+#open{
     width: 150px;
-    
+    text-align: left;
 }
