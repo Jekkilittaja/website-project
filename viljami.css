@@ -16,7 +16,10 @@ footer{
     width: 150px;
     text-align: left;
 }
-
+#flex-container-3{
+    display: flex;
+    flex-direction: row;
+}
 form{
     display: flex;
     flex-direction: column;
