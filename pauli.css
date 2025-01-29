@@ -61,9 +61,11 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0;
+    padding: 50px;
     margin: 0;
 }
+
+
 
 #servings-title h2 {
     font-size: 150px;
@@ -73,6 +75,8 @@ header {
 #servings p {
     font-family: Dancing Script;
     font-size: 30px;
+    text-align: start;
+    margin-left: 20px;
 }
 
 #info-title h2 {
