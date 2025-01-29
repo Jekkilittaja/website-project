@@ -21,9 +21,13 @@
     margin-bottom: 20px;
   }
 
-  #servings-title h2, #info-title h2, #svenska-title h2 {
+ 
+#servings-title h2 {
     font-size: 80px;
-  }
+} 
+#info-title h2 {
+    font-size: 80px;
+} 
 
   header {
     height: auto; 
