@@ -59,7 +59,10 @@
     }
   
     form input#submit {
-      width: 120px;
+      width: 300px;
+    }
+    form label{
+      margin-left: 10%;
     }
   
     #reservations-title {
