@@ -1,7 +1,6 @@
 @media (max-width: 600px){
     body{
-        #background-color: #AB6262;
-        
+        width: 100%;
     }
     #container{
         width: 100%;
@@ -16,16 +15,19 @@
         flex-direction: column;
         height: auto;
         max-height: none;
+        width: 100%;
     }
     #flex-container-2{
         flex-direction: column;
         height: auto;
         max-height: none;
+        width: 100%;
     }
     #flex-container-3{
         flex-direction: column;
         max-height: none;
         height: auto;
+        width: 100%;
     }
     form{
         height: 100%;
@@ -45,7 +47,7 @@
         font-size: 100px;
     }
     #svenska{
-        
+        width: 100%;
     }
     #svenska-title h2{
         font-size: 100px;
