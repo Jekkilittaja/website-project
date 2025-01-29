@@ -40,6 +40,31 @@
         text-align: center;
         margin-bottom: 20px;
     }
-    #nav{
+    #navigation{
+        padding-right: 20px;
+    }
+    #servings p{
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: start;
+        max-width: 100%;
+    
+    }
+    #svenska-paragraph{
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: start;
+        max-width: 100%;
+    }
+    #svenska-paragraph p{
+        margin-top: 0px;
+    }
+    #svenska-title h2{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        font-size: 100px;
+        text-align: left;
     }
 }
