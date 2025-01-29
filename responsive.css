@@ -48,6 +48,7 @@
     }
     #svenska{
         width: 100%;
+        padding: 0px;
     }
     #svenska-title h2{
         font-size: 100px;
@@ -60,7 +61,7 @@
         margin-bottom: 20px;
     }
     #navigation{
-        padding-right: 20px;
+        
     }
     #servings p{
         margin-left: 20px;
