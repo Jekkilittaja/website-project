@@ -1,6 +1,16 @@
 @media (max-width: 600px){
     body{
         #background-color: #AB6262;
+        
+    }
+    #container{
+        width: 100%;
+    }
+    header{
+        width: 100%;
+    }
+    footer{
+        width:100%;
     } 
     #flex-container-1{
         flex-direction: column;
@@ -35,7 +45,7 @@
         font-size: 100px;
     }
     #svenska{
-        max-width: 600px;
+        
     }
     #svenska-title h2{
         font-size: 100px;
