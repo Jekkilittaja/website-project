@@ -76,3 +76,24 @@ form label{
     width: 50%;
     max-width: 50%;
 }
+#svenska-paragraph{
+    max-width: 750px;
+}
+#svenska-title h2{
+    font-size: 150px;
+    font-family: Dancing Script;
+}
+#svenska p{
+    font-family: Dancing Script;
+    font-size: 30px;
+}
+#info p{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: start;
+    max-width: 100%;
+
+}
+#info-title h2{
+    margin-bottom: 62px;
+}
