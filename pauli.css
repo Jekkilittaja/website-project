@@ -84,3 +84,11 @@ header {
     font-family: Dancing Script;
     font-size: 30px;
 }
+
+#flex-container-1 {
+    max-height: 1080px;
+}
+
+#flex-container-2 {
+    max-height: 1080px;
+}
