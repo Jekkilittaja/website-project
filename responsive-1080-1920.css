@@ -86,13 +86,13 @@
     }
   }
 
-  @media (min-width: 1501px) and (max-width: 1600px) { /* w.i.p */
+  @media (min-width: 1501px) and (max-width: 1919px) { /* w.i.p */
 
     #flex-container-1 {
-        height: 768px;
+        height: 777px;
     }
 
     #flex-container-2 {
-        height: 768px;
+        height: 777px;
     }
 } 
