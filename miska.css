@@ -9,6 +9,7 @@
   #flex-container-1 div {
     width: 100%;
     height: auto;
+    margin-top: 0px;
   }
 
   #info-title {

@@ -8,14 +8,12 @@
     flex-direction: column;
     height: auto;
     max-height: none;
-    #gap: 20px; 
+    
   }
 
   #map {
-    width: 100%;
-    max-width: 100%;
+    display: none;
   }
-
   #reservations {
     max-width: 100%;
     margin-bottom: 20px;
@@ -31,7 +29,6 @@
 
   header {
     height: auto; 
-    #padding: 10px;
   }
 
   #name {
@@ -66,7 +63,7 @@
   }
 
   #reservations-title {
-    height: 45px;
+    height: auto;
     text-align: center;
   }
 
@@ -76,12 +73,7 @@
 
   #svenska-title {
     margin-bottom: 20px; 
-  }
-
-  #flex-container-1 {
-    margin-top: 20px; 
-  }
-  
+  }  
   #info-title {
     margin-top: 40px; 
   }
