@@ -1,0 +1,287 @@
+@media only screen and (min-width: 2150px) {
+    #first-pic {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    #first-pic img {
+        width: 1075px;
+        max-height: 1075px;
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #second-pic {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    #second-pic img {
+        width: 1075px;
+        max-height: 1075px;
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 2200px) {
+    #first-pic {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    #first-pic img {
+        width: 1100px;
+        max-height: 1075px;
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #second-pic {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    #second-pic img {
+        width: 1100px;
+        max-height: 1075px;
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 2300px) {
+    #first-pic {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    #first-pic img {
+        width: 1150px;
+        max-height: 1075px;
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #second-pic {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    #second-pic img {
+        width: 1150px;
+        max-height: 1075px;
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 2350px) {
+    #first-pic {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    #first-pic img {
+        width: 1175px;
+        max-height: 1075px;
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #second-pic {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    #second-pic img {
+        max-width: 1175px;
+        max-height: 1075px;
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 2400px) {
+    #first-pic {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    #first-pic img {
+        width: 1200px;
+        max-height: 1075px;
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0;
+    }
+
+    #second-pic {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    #second-pic img {
+        width: 1200px;
+        max-height: 1075px;
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 2450px) {
+    #first-pic {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    #first-pic img {
+        width: 1225px;
+        max-height: 1075px;
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0;
+    }
+
+    #second-pic {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    #second-pic img {
+        width: 1225px;
+        max-height: 1075px;
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 2500px) {
+    #first-pic {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    #first-pic img {
+        width: 1250px;
+        max-height: 1075px;
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0;
+    }
+
+    #second-pic {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    #second-pic img {
+        width: 1250px;
+        max-height: 1075px;
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 2530px) {
+    #first-pic {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    #first-pic img {
+        width: 1265px;
+        max-height: 1075px;
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0;
+    }
+
+    #second-pic {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    #second-pic img {
+        width: 1265px;
+        max-height: 1075px;
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 2560px) {
+    #first-pic {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    #first-pic img {
+        max-width: 1280px;
+        max-height: 1075px;
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0;
+    }
+
+    #second-pic {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    #second-pic img {
+        max-width: 1280px;
+        max-height: 1075px;
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0;
+    }
+}
