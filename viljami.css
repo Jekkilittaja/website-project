@@ -22,12 +22,56 @@ footer{
     
 }
 #reservations{
+    background-color: #AB6262;
     flex: 50%;
+    max-width: 50%;
+    min-width: 50%;
+    height: 300px;
+    align-items: center;
+}
+#reservations-title{
+    background-color: #8f5151;
+    height: 45px;
+    margin-top: 0px;
+    text-align: center;
+}
+#reservations-title h2{
+    margin-top: 0px;
+    line-height: 1.2;
+    text-align: center;
 }
 form{
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
-map{
+form input{
+    width: 90%;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-left: 5%;
+}
+form select{
+    width: 40px;
+    height: 25xp;
+    border-radius: 4px;
+    align-self: self-start;
+    margin-left: 5%;
+}
+form input#submit{
+    width: 100px;
+    height: 25px;
+    margin-top: 20px;
+    text-align: center;
+}
+form label{
+    margin-top: 5px;
+    margin-left: 5%;
+    align-self: self-start;
+    
+}
+#map{
     flex: 50%;
+    width: 50%;
+    max-width: 50%;
 }
