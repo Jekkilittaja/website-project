@@ -42,3 +42,12 @@ header {
 #navigation a:hover {
     color: white;
 }
+
+#svenska-paragraph {
+    text-align: center;
+}
+
+#svenska-title {
+    text-align: center;
+    margin-bottom: 10px;
+}
