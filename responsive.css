@@ -7,6 +7,7 @@
     }
     header{
         width: 100%;
+        height: auto;
     }
     footer{
         width:100%;
@@ -53,15 +54,12 @@
     #svenska-title h2{
         font-size: 100px;
     }
-    header{
-        height: auto;
-    }
     #name{
         text-align: center;
         margin-bottom: 20px;
     }
     #navigation{
-        
+        margin-right: 20px;
     }
     #servings p{
         margin-left: 20px;

@@ -89,6 +89,7 @@ form label{
     flex: 50%;
     width: 50%;
     max-width: 50%;
+    background-color: #F6D496;
 }
 #svenska-paragraph{
     max-width: 750px;
