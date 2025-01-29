@@ -64,3 +64,23 @@ header {
     padding: 0;
     margin: 0;
 }
+
+#servings-title h2 {
+    font-size: 150px;
+    font-family: Dancing Script;
+}
+
+#servings p {
+    font-family: Dancing Script;
+    font-size: 30px;
+}
+
+#info-title h2 {
+    font-size: 150px;
+    font-family: Dancing Script;
+}
+
+#info p {
+    font-family: Dancing Script;
+    font-size: 30px;
+}
