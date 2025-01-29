@@ -1,0 +1,95 @@
+@media (min-width: 1081px) and (max-width: 1500px) {
+
+    body{
+      background-color: #AB6262;
+    } 
+  
+    #flex-container-1, #flex-container-2, #flex-container-3 {
+      flex-direction: column;
+      height: auto;
+      max-height: none;
+      margin-top: 0;
+    }
+  
+    #map {
+      display: none;
+    }
+    #reservations {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  
+   
+  #servings-title h2 {
+      font-size: 80px;
+  } 
+  #info-title h2 {
+      font-size: 80px;
+  } 
+  
+    header {
+      height: auto; 
+    }
+  
+    #name {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    #navigation {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 15px; 
+      margin-bottom: 20px; 
+    }
+  
+    #navigation a {
+      font-size: 1.1rem;
+    }
+  
+    #first-pic img, #second-pic img {
+      width: 100%;
+      height: auto;
+    }
+  
+    form input, form select {
+      width: 80%; 
+      margin-left: 10%; 
+    }
+  
+    form input#submit {
+      width: 120px;
+    }
+  
+    #reservations-title {
+      height: auto;
+      text-align: center;
+    }
+  
+    footer {
+      padding: 20px; 
+    }
+  
+    #svenska-title {
+      margin-bottom: 20px; 
+    }  
+    #info-title {
+      margin-top: 40px; 
+    }
+  
+    #first-pic, #second-pic {
+      margin-top: 20px; 
+    }
+  }
+
+  @media (min-width: 1501px) and (max-width: 1600px) { /* w.i.p */
+
+    #flex-container-1 {
+        height: 768px;
+    }
+
+    #flex-container-2 {
+        height: 768px;
+    }
+} 
