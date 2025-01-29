@@ -9,7 +9,6 @@
   #flex-container-1 div {
     width: 100%;
     height: auto;
-    border-radius: none;
   }
 
   #info-title {
@@ -40,7 +39,6 @@
   #flex-container-2 div {
     width: 100%;
     height: auto;
-    border-radius: none;
   }
 
   #servings-title {
