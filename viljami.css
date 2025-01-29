@@ -45,7 +45,7 @@ footer{
     padding-top: 6px;
     font-size: 80px;
     max-width: 100%;
-    font-family: Dancing Script;
+    font-family: "Dancing Script";
     padding-bottom: 10px;
 }
 form{
@@ -95,10 +95,10 @@ form label{
 }
 #svenska-title h2{
     font-size: 150px;
-    font-family: Dancing Script;
+    font-family: "Dancing Script";
 }
 #svenska p{
-    font-family: Dancing Script;
+    font-family: "Dancing Script";
     font-size: 30px;
 }
 #info p{
