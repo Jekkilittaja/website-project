@@ -19,7 +19,7 @@
       margin-bottom: 20px;
     }
   
-   
+  
   #servings-title h2 {
       font-size: 80px;
   } 
@@ -86,7 +86,7 @@
     }
   }
 
-  @media (min-width: 1501px) and (max-width: 1919px) { /* w.i.p */
+  @media (min-width: 1501px) and (max-width: 1750px) { 
 
     #flex-container-1 {
         height: 777px;
@@ -95,4 +95,31 @@
     #flex-container-2 {
         height: 777px;
     }
+
+    #info p {
+      font-size: 28px;
+    }
+
+    #servings p {
+      font-size: 28px;
+    }
+}
+
+@media (min-width: 1751px) and (max-width: 1919px) { 
+
+  #flex-container-1 {
+      height: 878px;
+  }
+
+  #flex-container-2 {
+      height: 878px;
+  }
+
+  #info p {
+    font-size: 30px;
+  }
+
+  #servings p {
+    font-size: 30px;
+  }
 } 
