@@ -1,6 +1,7 @@
 @media (max-width: 600px){
     body{
         background-color: #AB6262;
+        max-width: 600px;
     } 
     #flex-container-1{
         flex-direction: column;
@@ -19,10 +20,10 @@
     #map{
         width: 100%;
         max-width: 100%;
+        visibility: hidden;
     }
     #reservations{
         max-width: 100%;
-        margin-bottom: 10px;
     }
     #servings-title h2{
         font-size: 100px;
