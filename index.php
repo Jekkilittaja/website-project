@@ -19,17 +19,9 @@
     <title>Visamäki Fine Dining</title>
 </head>
 <body>
-    <header>
-         <div id="name">
-            <h1>Visamäki Fine Dining</h1>
-        </div>
-        <div id="navigation">
-            <a href="#reservations">Varaukset</a>
-            <a href="#info">Tietoa meistä</a>
-            <a href="#servings">Tarjoilut</a>
-            <a href="#svenska">På svenska</a>
-        </div>
-    </header>
+    <?php
+        include "header.html";
+    ?>
     <div id="container">
         <div id="flex-container-1">
             <div id="first-pic">
@@ -62,27 +54,6 @@
                 </div>
         </div>
         <div id="flex-container-3">
-            <div id="reservations">
-                <div id="reservations-title">
-                    <h2>Varaukset</h2>
-                </div>
-                <form action="">
-                    <input type="text" id="fname" name="fname" placeholder="Etunimi / Förnamn">
-                    <input type="text" id="lname" name="lname" placeholder="Sukunimi / Efternamn">
-                    <input type="text" id="pnumber" name="pnumber" placeholder="Puhelinnumero / telefonnummer">
-                    <input type="text" id="email" name="email" placeholder="Sähköposti / E-post">
-                    <label for="amount">Henkilömäärä / Antal personer </label>
-                    <select name="amount" id="amount">
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                    </select>
-                    <label for="date">Päivämäärä / Datum</label>
-                    <input type="date" name="date" id="date"></select>
-                    <input type="submit" name="submit" id="submit" value="Varaa / Boka">
-                </form>
-            </div> <!-- reservations -->
             <div id="map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1368.7680048090126!2d24.478527513533507!3d60.976551285419056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468e5d7f1a184209%3A0xe69734d5c10042bd!2sH%C3%A4meen%20ammattikorkeakoulu%20(HAMK)%2C%20H%C3%A4meenlinnan%20korkeakoulukeskus!5e0!3m2!1sfi!2sfi!4v1738076002296!5m2!1sfi!2sfi" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
