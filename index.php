@@ -54,6 +54,9 @@
                 </div>
         </div>
         <div id="flex-container-3">
+            <div id="reservation-info">
+                <p>Varaaminen tapahtuu kirjautumalla sisään, jonka jälkeen pääsee varaamaan.</p>
+            </div>
             <div id="map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1368.7680048090126!2d24.478527513533507!3d60.976551285419056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468e5d7f1a184209%3A0xe69734d5c10042bd!2sH%C3%A4meen%20ammattikorkeakoulu%20(HAMK)%2C%20H%C3%A4meenlinnan%20korkeakoulukeskus!5e0!3m2!1sfi!2sfi!4v1738076002296!5m2!1sfi!2sfi" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>

@@ -1,0 +1,85 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pauli.css">
+    <link rel="stylesheet" href="viljami.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="big-responsive.css">
+    <link rel="stylesheet" href="responsive-medium.css">
+    <link rel="stylesheet" href="responsive-1080-1920.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap" rel="stylesheet">
+    <title>Visamäki Fine Dining</title>
+</head>
+<body>
+
+    <div id="flexbox-4">
+        <div id="reservation">
+            <div id="reservation-title">
+                <h2>Varaukset</h2>
+            </div>
+            <form id="form">
+                <input type="text" id="fname" name="fname" placeholder="Etunimi / Förnamn">
+                <input type="text" id="lname" name="lname" placeholder="Sukunimi / Efternamn">
+                <input type="text" id="pnumber" name="pnumber" placeholder="Puhelinnumero / telefonnummer">
+                <input type="text" id="email" name="email" placeholder="Sähköposti / E-post">
+                <label for="amount">Henkilömäärä / Antal personer </label>
+                <select name="amount" id="amount">
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <label for="date">Päivämäärä / Datum</label>
+                <input type="date" name="date" id="date">
+                <div id="error-message" style="color: black; font-weight: bold;margin-left: 5%; margin-top: 10px; width: 200px;height: 40px;"></div>
+                <input type="button" name="submit" id="submit" value="Varaa / Boka" onclick="sendReservation(this.form);">
+            </form>
+                        
+        </div> <!-- reservation -->
+        <div id="reservations">
+            
+        </div>
+
+        <script>
+            function sendReservation(form) {
+                var reservation = {
+                    etunimi: form.fname.value.trim(),
+                    sukunimi: form.lname.value.trim(),
+                    puhnumero: form.pnumber.value.trim(),
+                    sposti: form.email.value.trim(),
+                    maara: form.amount.value.trim(),
+                    pvm: form.date.value.trim()
+                };
+
+                console.log("Sending JSON:", reservation); // Debugging output
+
+                if (!reservation.etunimi || !reservation.sukunimi || !reservation.puhnumero ||
+                    !reservation.sposti || !reservation.maara || !reservation.pvm) {
+                    alert("Täytä kaikki kentät!");
+                    return;
+                }
+
+                var jsonReservation = JSON.stringify(reservation);
+
+                let xmlhttp = new XMLHttpRequest();
+                xmlhttp.onreadystatechange = function () {
+                    if (this.readyState == 4) {
+                        console.log("Server Response:", this.responseText); // Debugging output
+                        document.getElementById("submit").innerHTML = this.responseText;
+                        document.getElementById("error-message").innerText = this.responseText;
+                    }
+                };
+                xmlhttp.open("POST", "varaus.php", true);
+                xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xmlhttp.send("reservation=" + encodeURIComponent(jsonReservation)); // Ensure encoding
+            }
+
+        </script>
+
+    </div><!-- flexbox-4 -->
+</body>
